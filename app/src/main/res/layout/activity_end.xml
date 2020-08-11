@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/list"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:paddingTop="160dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empat"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:paddingLeft="115dp"
+        android:paddingTop="225dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textSize="15sp"
+        android:textColor="#d61e11"
+        android:contentDescription="@string/todo"/>
+    <TextView
+        android:paddingLeft="115dp"
+        android:paddingTop="243dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Rajin Olahraga untuk \n     jaga imun tubuh \n
+2. Selalu lakukan hal yang \n      sudah kamu baca tadi \n
+3. Jangan lupa doa itu hal \n      terpenting soalnya"
+        android:textSize="12sp"
+        android:textColor="#08419e"/>
+    <TextView
+        android:paddingLeft="120dp"
+        android:paddingTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end"
+        android:textSize="12sp"
+        android:textColor="#d61e11"/>
+</RelativeLayout>
